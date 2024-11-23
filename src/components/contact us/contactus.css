@@ -1,0 +1,79 @@
+.contact-us-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  justify-content: space-between;
+  align-items: flex-start; /* Align items to the top for better structure */
+  gap: 20px; /* Adds spacing between items */
+  padding: 20px 40px;
+  background-color: #f8f5de; 
+  font-family: 'Cantata One', serif; 
+  border-top: 5px solid #ccc; /* Adds a subtle separator */
+}
+
+.site-map,
+.contact-info,
+.branding {
+  flex: 1;
+  min-width: 250px; /* Ensures items stack on smaller screens */
+  text-align: left; /* Left-align text for better readability */
+}
+
+.site-map h3,
+.contact-info h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.site-map p,
+.contact-info p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.site-map ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-map li {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #444;
+  cursor: pointer; /* Makes it feel interactive */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.site-map li:hover {
+  color: #000;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: center;
+  gap: 5px; /* Adds spacing between icon and text */
+}
+
+.branding img.logo {
+  width: 100%;
+  max-width: 300px; /* Limits the logo size */
+  height: auto;
+  margin: 0 auto; /* Centers the image */
+  display: block; /* Ensures proper centering */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .contact-us-container {
+      flex-direction: column; /* Stacks sections vertically */
+      align-items: center;
+  }
+
+  .site-map,
+  .contact-info,
+  .branding {
+      text-align: center; /* Center-align on smaller screens */
+  }
+}

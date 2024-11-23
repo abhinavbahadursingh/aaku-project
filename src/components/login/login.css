@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+.login-container {
+    background-image: url('https://images.pexels.com/photos/8957075/pexels-photo-8957075.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+.login-box {
+    background-color: #F8F5DE; 
+    padding: 150px 80px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 300px; 
+    text-align: center;
+}
+
+.logo {
+    background-image: url('https://i.postimg.cc/Wb1J8y5n/Screenshot-2024-11-05-at-9-19-04-PM-removebg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    border-radius: 8px;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto 20px auto;
+    /* filter: brightness(1.2); */
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-family: 'Cantana one', serif;
+    font-size: xx-large;
+    color: #333;
+}
+
+.login-box p {
+    font-size: medium;
+}
+
+.login-box label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.login-box input,
+.login-box button {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.login-box input {
+    background-color: #f0f0f0;
+    color: #333;
+    outline: none;
+}
+
+.login-box button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #444;
+}

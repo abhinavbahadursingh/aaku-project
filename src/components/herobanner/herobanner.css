@@ -1,0 +1,77 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden; /* Ensures no overflow issues */
+}
+
+.hero-section .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://i.postimg.cc/B6ryBy9Q/BACKGROUND.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.7); /* Adds a slight dark overlay for better text readability */
+  z-index: -1;
+}
+
+.hero-overlay {
+  color: #fff; /* Adjusted text color for contrast */
+  max-width: 800px;
+  padding: 0 20px; /* Adds padding for smaller screens */
+}
+
+.hero-heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 750px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.search-bar::placeholder {
+  color: #777; /* Placeholder text color */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-heading {
+      font-size: 2.5rem;
+  }
+
+  .hero-description {
+      font-size: 1.2rem;
+  }
+
+  .search-bar {
+      font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&display=swap');
+
+.login-container {
+    background-image: url('https://images.pexels.com/photos/8957075/pexels-photo-8957075.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-box {
+    background-color: #F8F5DE;
+    padding: 60px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.loginlogo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-family: 'Cantata One', serif;
+    font-size: xx-large;
+    color: #333;
+}
+
+.login-box p {
+    font-size: medium;
+}
+
+.login-box input,
+.login-box button {
+    width: 90%; /* Ensures full width for both input fields and button */
+    padding: 12px 15px; /* Same padding for inputs and button */
+    font-size: 16px; /* Same font size */
+    border-radius: 5px; /* Same border radius for inputs and button */
+    margin-bottom: 15px; /* Margin between fields */
+}
+
+.login-box input {
+    background-color: #BBBDA4;
+    border: 1px solid #BBBDA4; /* Consistent border for input fields */
+}
+
+.login-box button {
+    background-color: #BBBDA4;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background-color: #0056b3;
+}
+
+.login-box p {
+    font-size: small;
+}
